@@ -12,6 +12,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "eslint-config-airbnb-typescript": "^17.0.0",
     "git-commit-msg-linter": "^5.0.4"
   },
   "devDependencies": {
