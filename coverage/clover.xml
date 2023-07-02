@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1688279105834" clover="3.2.0">
-  <project timestamp="1688279105834" name="All files">
+<coverage generated="1688279807326" clover="3.2.0">
+  <project timestamp="1688279807327" name="All files">
     <metrics statements="18" coveredstatements="18" conditionals="2" coveredconditionals="2" methods="4" coveredmethods="4" elements="24" coveredelements="24" complexity="0" loc="18" ncloc="18" packages="2" files="3" classes="3"/>
     <package name="controllers">
       <metrics statements="12" coveredstatements="12" conditionals="2" coveredconditionals="2" methods="2" coveredmethods="2"/>
@@ -10,14 +10,14 @@
         <line num="2" count="1" type="stmt"/>
         <line num="3" count="1" type="stmt"/>
         <line num="8" count="1" type="stmt"/>
-        <line num="12" count="5" type="stmt"/>
-        <line num="16" count="5" type="stmt"/>
-        <line num="17" count="5" type="stmt"/>
-        <line num="18" count="14" type="cond" truecount="1" falsecount="0"/>
+        <line num="12" count="6" type="stmt"/>
+        <line num="16" count="6" type="stmt"/>
+        <line num="17" count="6" type="stmt"/>
+        <line num="18" count="18" type="cond" truecount="1" falsecount="0"/>
         <line num="19" count="4" type="stmt"/>
-        <line num="23" count="1" type="stmt"/>
-        <line num="24" count="1" type="cond" truecount="1" falsecount="0"/>
-        <line num="25" count="1" type="stmt"/>
+        <line num="23" count="2" type="stmt"/>
+        <line num="24" count="2" type="cond" truecount="1" falsecount="0"/>
+        <line num="25" count="2" type="stmt"/>
       </file>
     </package>
     <package name="errors">
@@ -25,8 +25,8 @@
       <file name="invalid-param -error.ts" path="/home/regis/Documents/web/clean-code-api/src/presentation/errors/invalid-param -error.ts">
         <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
         <line num="1" count="1" type="stmt"/>
-        <line num="3" count="2" type="stmt"/>
-        <line num="4" count="2" type="stmt"/>
+        <line num="3" count="3" type="stmt"/>
+        <line num="4" count="3" type="stmt"/>
       </file>
       <file name="missing-param.ts" path="/home/regis/Documents/web/clean-code-api/src/presentation/errors/missing-param.ts">
         <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
