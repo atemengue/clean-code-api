@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1688281849421" clover="3.2.0">
-  <project timestamp="1688281849421" name="All files">
-    <metrics statements="16" coveredstatements="16" conditionals="2" coveredconditionals="2" methods="4" coveredmethods="4" elements="22" coveredelements="22" complexity="0" loc="16" ncloc="16" packages="2" files="2" classes="2"/>
+<coverage generated="1688282321548" clover="3.2.0">
+  <project timestamp="1688282321548" name="All files">
+    <metrics statements="19" coveredstatements="16" conditionals="2" coveredconditionals="2" methods="2" coveredmethods="2" elements="23" coveredelements="20" complexity="0" loc="19" ncloc="19" packages="3" files="3" classes="3"/>
     <package name="controllers">
       <metrics statements="13" coveredstatements="13" conditionals="2" coveredconditionals="2" methods="2" coveredmethods="2"/>
       <file name="signup.ts" path="/home/regis/Documents/web/clean-code-api/src/presentation/controllers/signup.ts">
@@ -21,13 +21,22 @@
         <line num="26" count="1" type="stmt"/>
       </file>
     </package>
-    <package name="helpers">
-      <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
-      <file name="http-helper.ts" path="/home/regis/Documents/web/clean-code-api/src/presentation/helpers/http-helper.ts">
-        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+    <package name="errors">
+      <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="index.ts" path="/home/regis/Documents/web/clean-code-api/src/presentation/errors/index.ts">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
         <line num="1" count="1" type="stmt"/>
-        <line num="4" count="5" type="stmt"/>
-        <line num="9" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="protocols">
+      <metrics statements="3" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="index.ts" path="/home/regis/Documents/web/clean-code-api/src/presentation/protocols/index.ts">
+        <metrics statements="3" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="0" type="stmt"/>
+        <line num="2" count="0" type="stmt"/>
+        <line num="3" count="0" type="stmt"/>
       </file>
     </package>
   </project>
