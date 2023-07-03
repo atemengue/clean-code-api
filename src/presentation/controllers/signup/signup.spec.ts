@@ -29,7 +29,7 @@ const makeAddAccount = (): AddAccount => {
 const makeSut = (): SutTypes => {
   class EmailValidatorStub implements EmailValidator {
     isValid (email: string): boolean {
-      return false
+      return true
     }
   }
   const emailValidatorStub = new EmailValidatorStub()
@@ -125,7 +125,7 @@ describe('SignUp Controller', () => {
     expect(httpResponse.body).toEqual(new InvalidParamError('email'));
   });
 
-  test('Should call EmailValidator with correct email', () => {
+  test('Should call EmailValidator with corerct email', () => {
     const { sut, emailValidatorStub } = makeSut();
     const isValidSpy = jest.spyOn(emailValidatorStub, 'isValid')
     const httpRequest = {
@@ -211,8 +211,29 @@ describe('SignUp Controller', () => {
         passwordConfirmation: 'any_password',
       },
     };
-    const HttpResponse = sut.handle(httpRequest);
-    expect(HttpResponse.statusCode).toBe(500)
-    expect(HttpResponse.body).toEqual(new ServerError())
+    const httpResponse = sut.handle(httpRequest);
+    expect(httpResponse.statusCode).toBe(500)
+    expect(httpResponse.body).toEqual(new ServerError())
+  });
+
+  test('Should return 200 if valid data is provided', () => {
+    const { sut } = makeSut();
+    const httpRequest = {
+      body: {
+        id: 'valid_id',
+        email: 'valid_email',
+        name: 'valid_name',
+        password: 'valid_password',
+        passwordConfirmation: 'valid_password'
+      },
+    };
+    const httpResponse = sut.handle(httpRequest);
+    expect(httpResponse.statusCode).toBe(200)
+    expect(httpResponse.body).toEqual({
+      id: 'valid_id',
+      name: 'valid_name',
+      email: 'valid_email',
+      password: 'valid_password',
+    })
   });
 });
