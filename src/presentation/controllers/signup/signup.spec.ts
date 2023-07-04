@@ -1,4 +1,3 @@
-import { resolve } from 'path';
 import { type AccountModel } from '../../../domain/models/account';
 import { type AddAccount, type AddAccountModel } from '../../../domain/usecases/add-account';
 import { InvalidParamError, MissingParamError, ServerError } from '../../errors';
@@ -199,8 +198,8 @@ describe('SignUp Controller', () => {
   test('Should return 500 if AddAccount throws', async () => {
     // possibilite de changer le comportement de la function
     const { sut, addAccountStub } = makeSut()
-    jest.spyOn(addAccountStub, 'add').mockImplementationOnce(async () => {
-      return await new Promise((resolve, reject) => { reject(new Error()); })
+    jest.spyOn(addAccountStub, 'add').mockImplementationOnce(() => {
+      throw new Error()
     })
     // const emailValidatorStub = makeEmailValidatorWithError()
     // const sut = new SignUpController(emailValidatorStub)
