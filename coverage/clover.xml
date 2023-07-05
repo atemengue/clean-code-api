@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1688535234241" clover="3.2.0">
-  <project timestamp="1688535234241" name="All files">
+<coverage generated="1688535649692" clover="3.2.0">
+  <project timestamp="1688535649692" name="All files">
     <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3" elements="7" coveredelements="7" complexity="0" loc="4" ncloc="4" packages="1" files="1" classes="1"/>
     <file name="db-add-account.ts" path="/home/regis/Documents/web/clean-code-api/src/data/usecases/add-account/db-add-account.ts">
       <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
