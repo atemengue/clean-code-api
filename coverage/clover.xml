@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1688621435850" clover="3.2.0">
-  <project timestamp="1688621435850" name="All files">
-    <metrics statements="54" coveredstatements="44" conditionals="3" coveredconditionals="3" methods="12" coveredmethods="12" elements="69" coveredelements="59" complexity="0" loc="54" ncloc="54" packages="6" files="11" classes="11"/>
+<coverage generated="1688621709624" clover="3.2.0">
+  <project timestamp="1688621709624" name="All files">
+    <metrics statements="54" coveredstatements="44" conditionals="3" coveredconditionals="3" methods="11" coveredmethods="11" elements="68" coveredelements="58" complexity="0" loc="54" ncloc="54" packages="6" files="11" classes="11"/>
     <package name="data.usecases.add-account">
-      <metrics statements="10" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
+      <metrics statements="10" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
       <file name="db-add-account-protocols.ts" path="/home/regis/Documents/web/clean-code-api/src/data/usecases/add-account/db-add-account-protocols.ts">
         <metrics statements="4" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
         <line num="1" count="0" type="stmt"/>
@@ -12,13 +12,13 @@
         <line num="4" count="0" type="stmt"/>
       </file>
       <file name="db-add-account.ts" path="/home/regis/Documents/web/clean-code-api/src/data/usecases/add-account/db-add-account.ts">
-        <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
+        <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
         <line num="4" count="1" type="stmt"/>
-        <line num="8" count="4" type="stmt"/>
-        <line num="9" count="4" type="stmt"/>
-        <line num="13" count="4" type="stmt"/>
-        <line num="14" count="3" type="stmt"/>
-        <line num="15" count="2" type="stmt"/>
+        <line num="8" count="5" type="stmt"/>
+        <line num="9" count="5" type="stmt"/>
+        <line num="13" count="5" type="stmt"/>
+        <line num="14" count="4" type="stmt"/>
+        <line num="15" count="3" type="stmt"/>
       </file>
     </package>
     <package name="presentation.controllers.signup">
