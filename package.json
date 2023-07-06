@@ -16,6 +16,9 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@types/bcrypt": "^5.0.0",
+    "bcrypt": "^5.1.0",
+    "brcypt": "^1.0.1",
     "eslint-config-airbnb-typescript": "^17.0.0",
     "git-commit-msg-linter": "^5.0.4",
     "validator": "^13.9.0"
